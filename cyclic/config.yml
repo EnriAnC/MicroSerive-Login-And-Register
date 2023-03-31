@@ -1,0 +1,5 @@
+build:
+  commands:
+    - npm install
+    - npm run build
+  publish: dist
