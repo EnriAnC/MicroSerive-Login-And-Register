@@ -14,7 +14,7 @@ config()
     PassportModule, // importa el PassportModule
     JwtModule.register({
       secret: process.env.JWT_SECRET, // secreto utilizado para firmar el token
-      signOptions: { expiresIn: `${process.env.JWT_EXPIRATION_TIME}h`}, // opciones de firma del token
+      signOptions: { expiresIn: `${Number(process.env.JWT_EXPIRATION_TIME)}h`}, // opciones de firma del token
     }),
   ],
   controllers: [AuthController],

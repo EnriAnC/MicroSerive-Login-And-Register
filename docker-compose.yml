@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    image: login-register-docker:local
+    container_name: login-register-docker
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+    depends_on:
+      - mongodb
+
