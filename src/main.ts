@@ -11,12 +11,12 @@ config()
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
-  const corsOptions: CorsOptions = {
-    origin: 'https://todolist-eanc.netlify.app/',
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-  };
-  app.enableCors(corsOptions);
+  // const corsOptions: CorsOptions = {
+  //   origin: 'https://todolist-eanc.netlify.app/',
+  //   methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  //   allowedHeaders: ['Content-Type', 'Authorization'],
+  // };
+  app.enableCors();
 
   app.useGlobalPipes(new ValidationPipe());
   app.useGlobalFilters(new HttpExceptionFilter);
