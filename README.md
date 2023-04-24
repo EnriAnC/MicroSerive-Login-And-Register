@@ -26,7 +26,7 @@
 
 # Microservicio de login y registro en NestJS
 
-Este es un microservicio de login y registro desarrollado con NestJS. Utilizamos Express como servidor web y librerías como JWT y otras propias de NestJS para implementar medidas de seguridad en la autenticación de usuarios. Además, hemos logrado dockerizar esta aplicación.
+Este es un microservicio de login y registro desarrollado con NestJS. Utilizamos Express como servidor web y librerías como JWT y otras propias de NestJS para implementar medidas de seguridad en la autenticación de usuarios. Además, hemos logrado dockerizar esta aplicación y levantarla en Azure Container y Railway.
 
 ## Funcionamiento del microservicio
 
@@ -43,9 +43,9 @@ Este es un microservicio de login y registro desarrollado con NestJS. Utilizamos
 
 ## Conclusiones
 
-El uso de NestJS nos ha permitido desarrollar un microservicio de login y registro escalable y seguro. La utilización de librerías como JWT y otras propias de NestJS han hecho posible implementar medidas de seguridad para proteger los datos del usuario. Además, gracias a la capacidad de Docker de empaquetar la aplicación en contenedores, podemos asegurar que nuestra aplicación se ejecute de manera coherente en diferentes entornos.
+El uso de NestJS ha permitido desarrollar un microservicio de login y registro escalable y seguro. La utilización de librerías como JWT y otras propias de NestJS han hecho posible implementar medidas de seguridad para proteger los datos del usuario. Además, gracias a la capacidad de Docker de empaquetar la aplicación en contenedores, podemos asegurar que la aplicación se ejecute de manera coherente en diferentes entornos.
 
-¡Gracias por leer acerca de nuestro microservicio de login y registro en NestJS! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.
+¡Gracias por leer acerca de nuestro microservicio de login y registro en NestJS! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto.
 
 
 
